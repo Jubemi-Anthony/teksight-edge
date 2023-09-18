@@ -1,0 +1,147 @@
+footer{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+    overflow-x: hidden;
+}
+footer .main{
+    font-family: var(--rozha);
+    font-size: 3.2rem;
+    width: 47%;
+    margin-bottom: 40px;
+}
+footer .main span{
+    color: var(--brand-1);
+}
+footer .companies{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+footer .companies img{
+    width: 180px;
+}
+footer .small-main{
+    font-family: var(--rozha);
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+footer .small-main2{
+    margin-bottom: 10px;
+}
+footer .sep-f1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-family: var(--koho);
+    font-size: 1.5rem;
+}
+footer .sep-f1 p:first-child{
+    color: var(--light-2);
+    font-size: 2rem;
+}
+footer .sec-f1{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-bottom: 50px;
+}
+footer .sec-f2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+footer h4{
+    font-family: var(--rozha);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+footer .sec-f2 h4{
+    margin-bottom: 5px;
+    font-family: var(--rozha);
+    font-weight: 500;
+}
+footer .sec-f1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--koho);
+}
+footer .sec-f1 ul, footer .sec-f1 ul a{
+    color: var(--blue);
+}
+footer .sec-f1 .social a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--light-2);
+}
+footer .sec-f2 p{
+    line-height: 1.6em;
+    font-family: var(--koho);
+    width: 85%;
+    font-size: 0.9rem;
+}
+footer .last-last{
+    font-size: 0.9rem;
+    font-family: var(--koho);
+    color: var(--light-2);
+    text-align: center;
+}
+@media(max-width: 950px){
+    footer{
+        padding: 0;
+        overflow-x: hidden;
+    }
+    footer .main{
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .companies{
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+    }
+    footer .companies img{
+        width: 150px;
+    }
+    footer .small-main{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    footer .small-main2{
+        margin-bottom: 10px;
+    }
+    footer .sep-f1{
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+    }
+    footer .sep-f1 p:first-child{
+        font-size: 1.2rem;
+    }
+    footer .sec-f1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+        grid-row-gap: 25px;    
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .sec-f2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+        grid-row-gap: 25px; 
+        margin-bottom: 30px;
+    }
+    footer h4{
+        margin-bottom: 20px;
+    }
+    footer .sec-f1 ul{
+        gap: 10px;
+    }
+    footer .last-last{
+        margin-bottom: 30px;
+    }
+}

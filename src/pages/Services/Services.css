@@ -1,0 +1,51 @@
+.Services .cont-1{
+    width: 50%;
+}
+.Services #buzz{
+    background-color: transparent;
+    padding: 5px;
+    width: fit-content;
+    margin-left: auto;
+    color: var(--light);
+}
+.sec-1s{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.sec-1s img:first-child{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.sec-2s{
+    width: 90%;
+    margin: 100px auto;
+    text-align: left;
+}
+.sec-3s{
+    width: 90%;
+    margin: auto;
+}
+.sec-3s .main-particle{
+    text-align: left;
+}
+@media(max-width: 950px){
+    .Services .cont-1{
+        width: 100%;
+    }
+    .sec-1s{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    .sec-1s img:first-child{
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    .sec-1s img:last-child{
+        height: 100px;
+    }
+    .sec-2s{
+        margin: 50px auto;
+    }
+}

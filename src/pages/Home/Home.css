@@ -1,0 +1,291 @@
+.Home{
+    padding-top: 100px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.Home .top p:last-child{
+    color: var(--brand-1);
+    transform: translateY(-25px) scale(5);
+}
+.Home .cont-1{
+    width: 90%;
+    margin: auto;
+    font-size: 68px;
+    line-height: 1.6em;
+    font-family: var(--rozha);
+    margin-top: 30px;
+}
+.Home .sep-1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.create{
+    background-color: var(--brand-1);
+    color: var(--dark);
+    padding: 0px 25px;
+    border: none;
+    border-radius: 20px;
+    rotate: 8deg;
+}
+.Home .cont-2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    font-family: var(--koho);
+    justify-content: flex-end;
+    align-items: center;
+    transform: translateY(-20px);
+}
+.Home .cont-2 p:first-child{
+    width: 45%;
+    text-align: left;
+    line-height: 1.6em;
+    font-size: 1.1rem;
+}
+.Home .cont-2 p:last-child{
+    font-size: 15rem;
+    font-weight: bold;
+    color: rgba(231, 145, 1, 0.1);
+}
+.Home .sec-1 img{
+    width: 80px;
+    height: 80px;
+}
+.Home .sec-1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    margin: 100px 0;
+    font-family: var(--koho);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#ehingbeti{
+    background-color: white;
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home .sec-1 .img-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#rectangle-620{
+    transform: scale(5);
+}
+.Home .sec-2{
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.Home .empty{
+    margin-bottom: 100px;
+    width: 100%;
+}
+.Home .empty img{
+    width: 100%;
+    height: 350px;
+}
+.Home .sec-3{
+    width: 90%;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 110px;
+}
+.Home .sec-3 div:first-child{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.Home .sec-3 div:last-child{
+    display: flex;
+    justify-content: center;
+}
+.Home .sec-3 div:last-child p{
+    background-color: var(--brand-1);
+    padding: 15px 35px;
+    width: fit-content;
+    border-radius: 10px;
+    color: var(--dark);
+    font-family: var(--koho);
+}
+.Home .sec-4{
+    background-color: var(--dark-2);
+    padding: 50px 0;
+}
+.Home .sec-4 .main{
+    font-family: var(--rozha);
+    font-size: 3.2rem;
+}
+.Home .sec-4 .main span{
+    color: var(--brand-1);
+}
+.Home .sec-4 .images{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home .sec-4 .images img{
+    width: 100px;
+    height: 100px;
+}
+.Home .sec-4 .images img:nth-child(3){
+    width: 150px;
+    height: 150px;
+}
+.Home .sec-4 .quote{
+    width: 50%;
+    margin: auto;
+    font-family: var(--koho);
+    color: var(--light-1);
+    line-height: 1.6em;
+    display: flex;
+}
+.Home .sec-4 .quote p:first-child,
+.Home .sec-4 .quote p:last-child{
+    font-size: 6rem;
+    font-family: var(--rozha);
+    color: var(--light-2);
+}
+.Home .sec-4 .quote p:last-child{
+    transform: translateY(110px);
+}
+.Home .sec-4 .person{
+    margin: 50px 0;
+}
+.Home .sec-4 .person p:first-child{
+    font-family: var(--rozha);
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+.Home .sec-4 .person p:last-child{
+    font-family: var(--koho);
+}
+
+@media(max-width: 950px){
+    .Home{
+        padding-top: 50px;
+    }
+    .Home .top p:last-child{
+        transform: translateY(-15px) scale(3);
+    }
+    .Home .cont-1{
+        width: 90%;
+        font-size: 3rem;
+        margin-top: 25px;
+    }
+    .Home .sep-1{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .Home .cont-2{ 
+        margin-top: 10px;
+        width: 95%;
+        flex-direction: column;
+        gap: 20px;
+        transform: translateY(0px);
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .Home .cont-2 p:first-child{
+        width: 90%;
+        text-align: left;
+    }
+    .Home .cont-2 p:last-child{
+        font-size: 12rem;
+        color: rgba(231, 145, 1, 0.2);
+        position: absolute;
+        bottom: -35%;
+        right: 0;
+    }
+    .Home .sec-1 img{
+        width: 75px;
+        height: 75px;
+    }
+    .Home .sec-1{
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    #ehingbeti{
+        width: 80px;
+        height: 80px;
+    }
+    .Home .sec-1 .img-holder{
+        width: 70%;
+    }
+    #rectangle-620{
+        transform: scale(1.5);
+    }
+    .Home .sec-2{
+        width: 90%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .Home .empty{
+        margin-bottom: 20px;
+    }
+    .Home .empty img{
+        height: 250px;
+    }
+    .Home .sec-3{
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .Home .sec-3 div:first-child{
+        display: none;
+    }
+    .Home .sec-4{
+        padding: 20px 0;
+    }
+    .Home .sec-4 .main{
+        font-family: var(--rozha);
+        font-size: 2rem;
+    }
+    .Home .sec-4 .images{
+        margin: 30px auto;
+        justify-content: center;
+    }
+    .Home .sec-4 .images img{
+        display: none;
+    }
+    .Home .sec-4 .images img:nth-child(3){
+        width: 150px;
+        height: 150px;
+        display: block;
+    }
+    .Home .sec-4 .quote{
+        width: 90%;
+    }
+    .Home .sec-4 .quote p:first-child,
+    .Home .sec-4 .quote p:last-child{
+        font-size: 3rem;
+        font-family: var(--rozha);
+    }
+    .Home .sec-4 .quote p:last-child{
+        transform: translateY(200px);
+    }
+    .Home .sec-4 .person{
+        margin: 30px 0;
+    }
+    .Home .sec-4 .person p:first-child{
+        margin-bottom: 5px;
+    }
+}

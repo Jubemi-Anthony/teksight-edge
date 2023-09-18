@@ -1,0 +1,73 @@
+:root {
+  --dark: rgba(4, 5, 5, 1);
+  --dark-2: rgb(29, 29, 29);
+  --light: rgba(240, 240, 240, 1);
+  --light-1: rgb(224, 224, 224);
+  --light-2: rgb(136, 136, 136);
+  --light-3: rgb(100, 100, 100);
+  --brand-1: rgba(231, 145, 1, 1);
+  --rozha: 'Rozha One';
+  --koho: 'KoHo', sans-serif;
+  --blue: #0b54f1;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: var(--color-1); */
+}
+body{
+  background-color: black;
+  color: var(--light);
+  overflow-x: hidden;
+}
+#App .top-overlay{
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 7;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--light);
+}
+#App{
+  padding-top: 40px;
+  padding-left: 40px;
+  /* overflow-x: hidden; */
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+}
+#DIVIDER{
+  display: flex;
+  position: relative;
+}
+.orange{
+  color: var(--brand-1);
+}
+.koho{
+  font-family: var(--koho);
+}
+.rozha{
+  font-family: var(--rozha);
+}
+@media(max-width: 950px){
+  #App{
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .logo img{
+    width: 35px;
+    height: 35px;
+  }
+  #DIVIDER{
+    display: block;
+  }
+}
